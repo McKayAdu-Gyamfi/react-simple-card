@@ -1,0 +1,45 @@
+.card_container{
+    border: 4px rgb(247, 206, 145) solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.App{
+    background-color: white;
+}
+.img_container{
+    border: 4px black solid;
+    margin: 5px;
+}
+.titleDesc_container{
+    margin: 5px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    border: 3px solid black;
+}
+.Des{
+    border: 3px black solid;
+    border-radius: 5px;
+    padding:8px; 
+}
+.Price{
+    color: green;
+}
+.btn{
+    font-size: 22px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#buy:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid  #4CAF50;
+}
